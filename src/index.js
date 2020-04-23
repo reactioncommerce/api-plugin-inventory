@@ -17,7 +17,7 @@ import xformCatalogProductVariants from "./utils/xformCatalogProductVariants.js"
 export default async function register(app) {
   await app.registerPlugin({
     label: "Inventory",
-    name: "reaction-inventory",
+    name: "inventory",
     version: app.context.appVersion,
     i18n,
     functionsByType: {
